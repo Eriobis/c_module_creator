@@ -35,7 +35,7 @@ fc.write("\
 fh.write("/****************************************\n\n")
 fh.write("File name     : " + filename + ".h\n")
 fh.write("Author        : Simon Benoit \n")
-fc.write("Creation date : " + date + "\n\n")
+fh.write("Creation date : " + date + "\n\n")
 fh.write("****************************************/\n\n")
 
 fh.write("#ifndef __" + filename.upper() + "_H\n")
